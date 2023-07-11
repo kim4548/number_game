@@ -38,6 +38,7 @@
             }
             //quesscount를 1증가 해준다
             quesscount++;
+            guessField.value=''; 
           }
            function setGameOver(){
             guessField.disabled = true;
